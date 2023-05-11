@@ -1,0 +1,99 @@
+<html>
+
+
+
+<head>
+<title>index_home  </title>
+<link rel="stylesheet" href= "style.css" >
+
+<style>
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #bcce98;
+}
+ul {
+	list-style-type: none;
+	 	  padding: 10px;
+
+}
+
+ul li {
+	font-size: 40px;
+	font-family: sans-serif;
+	background-color: white;
+	border: 0.5px solid black;
+	padding: 15 px;
+	letter-spacing: 0.1em;
+
+	width: 5em;
+	height: 1.5em;
+	line-height: 1.3em;
+	position: relative;
+	overflow: hidden;
+	margin: 0.5em;
+	cursor: pointer;
+}
+
+ul li span {
+	color: white;
+	mix-blend-mode: difference;
+	 text-align:center;
+
+}
+
+ul li::before {
+	content: '';
+	position: absolute;
+	width: 1.5em;
+	height: inherit;
+	background-color: #bcce98;
+	border-radius: 50%;
+	top: 0;
+	left: -0.75em;
+	transition: 0.5s ease-out;
+
+}
+
+ ul li:hover::before {
+	transform: scale(7);
+}
+
+
+
+
+a{
+color:gray;
+ font-size:25;
+ 	font-weight:bold;
+ font-family:'HeadlineMT-Bold', 'Trebuchet MS', 'Lucida Grande', 'Arial', sans-serif
+ text-align:center;
+  
+}
+
+
+</style>
+
+
+
+</head>
+<body >
+
+
+
+  <ul>
+
+    <li><span><a href = "bestseller.html"  target="_blank" > Best seller </a> </span></li>
+    <li><span><a href = "Newreleases.html"  target="_blank"> New release </a> </span></li>
+    <li><span><a href = "UsedBooks.html" target="_blank">  UsedBooks </a> </span></li>
+    <li><span><a href = "activities1.html"  target="_blank">  Activities </a></span></li>
+	<li><span><a href = "for kids.html" target="_blank"> For Kids   </a> </span></li>
+
+
+</body>
+
+
+
+</html>
